@@ -1,5 +1,5 @@
 owner: a1um1
-repo: ci-check
+repo: status
 
 sites:
   - name: m3ow.xyz
@@ -9,6 +9,7 @@ sites:
 status-website:
   name: Status
   introTitle: "**m3ow.xyz** Uptime Monitor"
+  cname: a1um1.github.io
   baseUrl: /status
   introMessage: This status page is automatically updated every 5 minutes by Upptime.
   navbar:
