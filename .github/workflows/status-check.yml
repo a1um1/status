@@ -47,6 +47,9 @@ jobs:
             git push origin HEAD:${{ github.ref_name }}
           fi
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -55,6 +58,9 @@ jobs:
   deploy:
     needs: check-status
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
