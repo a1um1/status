@@ -7,8 +7,9 @@ sites:
     method: GET
 
 status-website:
-  name: m3ow.xyz status
+  name: Status
   introTitle: "**m3ow.xyz** Uptime Monitor"
+  baseUrl: /status
   introMessage: This status page is automatically updated every 5 minutes by Upptime.
   navbar:
     - title: Status
