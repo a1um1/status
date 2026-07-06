@@ -38,13 +38,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Only commit if data/status.json has changed
-          if git diff --quiet data/status.json; then
+          # Check for changes in tracked or untracked files
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No changes in status history."
           else
             git add data/status.json
             git commit -m "chore: update status data [skip ci]"
-            git push
+            git push origin HEAD:${{ github.ref_name }}
           fi
 
       - name: Upload Pages Artifact
