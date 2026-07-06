@@ -1,0 +1,20 @@
+owner: a1um1
+repo: ci-check
+
+sites:
+  - name: m3ow.xyz
+    url: https://m3ow.xyz
+    method: GET
+
+status-website:
+  name: m3ow.xyz status
+  introTitle: "**m3ow.xyz** Uptime Monitor"
+  introMessage: This status page is automatically updated every 5 minutes by Upptime.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/a1um1/ci-check
+
+notifications:
+  - type: discord
