@@ -13,8 +13,10 @@ status-website:
   baseUrl: /status
   introMessage: This status page is automatically updated every 5 minutes by Upptime.
   navbar:
-    - title: Status
+    - title: Home
       href: /
+    - title: Status
+      href: /status
     - title: GitHub
       href: https://github.com/a1um1/status
 
