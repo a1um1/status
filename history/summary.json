@@ -4,17 +4,17 @@
     "url": "https://m3ow.xyz",
     "icon": "https://icons.duckduckgo.com/ip3/m3ow.xyz.ico",
     "slug": "m3ow-xyz",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2512,
-    "timeDay": 1031,
-    "timeWeek": 1048,
-    "timeMonth": 4494,
-    "timeYear": 2512,
+    "time": 2522,
+    "timeDay": 2152,
+    "timeWeek": 1326,
+    "timeMonth": 4458,
+    "timeYear": 2522,
     "dailyMinutesDown": {}
   }
 ]
